@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+
+    <style>
+        .skill{
+            width: 80%;
+            max-width: 500px;
+            margin: 15px auto;
+            text-align: left;
+        }
+
+        .skill-bar{
+            background: #ddd;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .skill-level{
+            color: white;
+            padding: 6px;
+            text-align: center;
+            background: #174ea6;
+            border-radius: 20px;
+        }
+
+        .html{
+            width: 40%;
+        }
+
+        .css {
+            width: 30%;
+        }
+
+        .javascript {
+            width: 15%;
+        }
+        body { 
+          background-color: Linear - gradient(to right,Lightblue,white ) ;
+          font-family: Arial; sans - serif ;
+          text-align: center;
+          margin: 0;
+          color: #222;
+        }
+        h1 {
+            color: darkblue;
+            margin-top:30px;
+        }
+
+        h2 {color: darkblue;
+        } 
+
+        img {
+            width: 200px;
+            border-radius:15px;
+            box-shadow: 0 4px 12px gray;
+        }
+
+        button{
+            background-color: darkblue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: blue;
+        }
+        
+        nav {background-color: darkblue;
+            padding: 15 px;
+            margin-top: 25px;
+            }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+         }
+
+         nav a:hover{
+            color:Lightblue;
+         }
+         header {
+            background-color: darkblue;
+            color: white;
+            border-radius 10px;
+            margin: 20px;
+         }
+         header h1 {
+            color: white;
+         }
+    .social-links a {
+        display: inline-block;
+        background-color: #1877F2;
+        color: white;
+        padding: 10px 18px;
+        margin: 5px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .social-links a:hover {
+        background-color: #0b3d91;
+    }
+    @media (max-width: 600px) {nav a {
+        display: inline-block;
+        margin: 6px;
+        font-size: 14px;
+    }
+
+    header {
+        margin: 6px;
+        padding: 20px 10px;
+    }
+
+    img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .skill {
+        width: 90%;
+    }
+
+    button {
+        max-width: 100%;
+    }
+    }
+    @media (max-width: 600px) {
+        body {
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 22px;
+        }
+
+        p, Li {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        nav a {
+            padding: 8px;
+            font-size: 14px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+<header id="home">
+    <h1>Hello , I'm Joy!</h1>
+    <p>Welcome to my personal website.</p>
+    <p>Aspiring Web Developer | Computer Science Student </p>
+    </header>
+    <h2>My photo</h2>
+    <img src="myphoto.jpg" width="200">
+    <h2 id="about">About Me</h2>
+    <p>My name is Adeniyi Amos Joy.I am learning Computer Science and web development.</p>
+    <h2 id="interests">My Interests</h2>     
+    <button onclick="alert('Welcome to my website')">
+        Click Me 
+    </button>          
+ 
+        <p>Computer Science<br>
+        Web Design<br>
+        Technology</p>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <h2 id="skills">My Skills</h2>
+
+    <div class="skill">
+        <p>HTML - Beginner</p>
+        <div class="skill-bar">
+            <div class=skill-level html">40%</div>
+           </div>
+        </div>
+
+        <div class="skill">
+            <p>CSS - Beginner</p>
+            <div class="skill-bar">
+                <div class="skill-level css"30%</div>
+               </div>
+            </div>
+
+            <div class="skill">
+                <p>Javascript - Beginner</p>
+                <div class="skill">
+                    <div class="skill-level Javascript">15%</div>
+                  </div>
+                </div>
+    <h2>Connect With Me</h2>\
+
+    <div class="social-links">
+        <a href="https://www.facebook.com/Ade Jare" target="_blank" rel="noopener noreferrer">facebook</a>
+        <a href="https://www.instagram.com/adejare422" target="_blank" rel="noopener noreferrer">instagram</a>
+        <a href="https://www.tiktok.com/@ade.jare1" target="_blank" rel="noopener noreferrer">tiktok</a>
+    </div>
+    </p>
+    <h2 id="contact">Contact Me</h2>
+    <p>Want to contact me? Message me on Whatsapp!</p> 
+
+    <a href="https://wa.me/2348106729986" target="_blank">
+        <button>Chat with me on Whatsapp</button>
+    </a>
+    <p>Email: adeniyijoyadejare@gmail.com</p>
+</body>
+</html>
